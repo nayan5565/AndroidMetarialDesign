@@ -34,4 +34,32 @@
         android:text="BottomSheetBehaviour"
         app:layout_constraintTop_toBottomOf="@id/btnSnacTrans" />
 
+    <Button
+        android:id="@+id/btnFabAndSnackbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FabAndSnackbar"
+        app:layout_constraintTop_toBottomOf="@id/btnBottomSheetBehaviour" />
+
+    <Button
+        android:id="@+id/btnFabFollowsWidget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FabFollowsWidget"
+        app:layout_constraintTop_toBottomOf="@id/btnFabAndSnackbar" />
+
+    <Button
+        android:id="@+id/btnCollapsingToolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CollapsingToolbar"
+        app:layout_constraintTop_toBottomOf="@id/btnFabFollowsWidget" />
+
+    <Button
+        android:id="@+id/btnCustomBehavior"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CustomBehavior"
+        app:layout_constraintTop_toBottomOf="@id/btnCollapsingToolbar" />
+
 </android.support.constraint.ConstraintLayout>

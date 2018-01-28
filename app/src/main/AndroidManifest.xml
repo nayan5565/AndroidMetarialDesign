@@ -16,10 +16,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".FabAndSnackbarActivity"/>
+        <activity android:name=".FabFollowsWidgetActivity"/>
+        <activity android:name=".CollapsingToolbarActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
 
         <activity
             android:name=".AppBarHorizontalScrollingActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity
+            android:name=".CustomBehaviorActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
 
         <activity
             android:name=".AppBarLayoutCollapsePinActivity"
